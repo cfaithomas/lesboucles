@@ -22,6 +22,7 @@ int main() {
     int inc=0;
     int nbboucles=0;
     int nb=0;
+    int l=0;
     printf("Veuillez saisir le début de la boucle\n");
     scanf("%d",&debut);
     printf("Veuillez saisir la fin de la boucle\n");
@@ -40,9 +41,9 @@ int main() {
         nbboucles=(fin-debut)/inc;
 
     /*****************boucle parametrée*************************/
-    for(i=debut;nb<=nbboucles;i+=inc)
+    for(l=debut;nb<=nbboucles;l+=inc)
     {
-        printf("%d\n",i);
+        printf("%d\n",l);
         nb++;
     }
 
